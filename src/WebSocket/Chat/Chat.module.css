@@ -1,0 +1,35 @@
+.chat{
+  border: 3px solid red;
+  border-radius: 5px;
+  width: 400px;
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.title{
+}
+h2{
+  margin: 15px 0 ;
+  text-align: center;
+}
+.textarea{
+  padding: 0 10px 10px 10px;
+}
+
+.messages{
+  margin-left: 30px;
+  height: 200px;
+  overflow-y: scroll;
+  border: 2px solid green
+}
+textarea{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  min-height: 100px;
+  outline: none;
+}

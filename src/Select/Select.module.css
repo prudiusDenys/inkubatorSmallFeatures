@@ -1,0 +1,38 @@
+
+.select{
+  width: 170px;
+}
+.options{
+  background: #333333;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.selectedCity{
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #333333;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+.selectedCity:focus{
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+.city{
+  padding: 5px 0;
+  cursor: pointer;
+}
+.city:hover{
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
